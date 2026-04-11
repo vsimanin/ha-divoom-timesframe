@@ -3,6 +3,7 @@
   "name": "Divoom TimesFrame",
   "codeowners": ["@vsimanin"],
   "config_flow": true,
+  "brand": "divoom",
   "documentation": "https://github.com/vsimanin/ha-divoom-timesframe",
   "iot_class": "local_polling",
   "issue_tracker": "https://github.com/vsimanin/ha-divoom-timesframe/issues",
