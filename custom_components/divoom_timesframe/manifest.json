@@ -4,8 +4,8 @@
   "codeowners": ["@vsimanin"],
   "config_flow": true,
   "documentation": "https://github.com/vsimanin/ha-divoom-timesframe",
-  "iot_class": "cloud_polling",
+  "iot_class": "local_polling",
   "issue_tracker": "https://github.com/vsimanin/ha-divoom-timesframe/issues",
   "requirements": [],
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
