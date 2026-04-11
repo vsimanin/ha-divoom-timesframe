@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Настройка Divoom TimesFrame",
+        "description": "Введите данные вашей рамки. Device ID можно найти тут https://app.divoom-gz.com/Device/ReturnSameLANDevice",
+        "data": {
+          "host": "IP адрес устройства",
+          "port": "Порт (9000)",
+          "device_id": "Device ID"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Не удалось подключиться к рамке. Проверьте IP.",
+      "unknown": "Непредвиденная ошибка"
+    }
+  },
+  "entity": {
+    "switch": {
+      "divoom_screen": {
+        "name": "Экран"
+      }
+    },
+    "number": {
+      "divoom_brightness": {
+        "name": "Яркость"
+      }
+    },
+    "select": {
+      "divoom_clock": {
+        "name": "Оболочка"
+      }
+    }
+  }
+}

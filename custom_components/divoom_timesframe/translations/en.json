@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Divoom TimesFrame Setup",
+        "description": "Enter your frame details. Device ID can be found here: https://app.divoom-gz.com/Device/ReturnSameLANDevice",
+        "data": {
+          "host": "Device IP address",
+          "port": "Port (9000)",
+          "device_id": "Device ID"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the frame. Check the IP.",
+      "unknown": "Unexpected error"
+    }
+  },
+  "entity": {
+    "switch": {
+      "divoom_screen": {
+        "name": "Screen"
+      }
+    },
+    "number": {
+      "divoom_brightness": {
+        "name": "Brightness"
+      }
+    },
+    "select": {
+      "divoom_clock": {
+        "name": "Face ID"
+      }
+    }
+  }
+}

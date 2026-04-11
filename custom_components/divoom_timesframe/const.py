@@ -1,0 +1,1 @@
+DOMAIN = "divoom_timesframe"
