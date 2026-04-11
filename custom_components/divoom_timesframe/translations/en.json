@@ -17,6 +17,11 @@
     }
   },
   "entity": {
+    "button": {
+      "divoom_reboot": {
+        "name": "Reboot"
+      }
+    },
     "switch": {
       "divoom_screen": {
         "name": "Screen"

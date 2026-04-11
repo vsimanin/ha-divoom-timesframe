@@ -17,6 +17,11 @@
     }
   },
   "entity": {
+    "button": {
+      "divoom_reboot": {
+        "name": "Перезагрузка"
+      }
+    },
     "switch": {
       "divoom_screen": {
         "name": "Экран"

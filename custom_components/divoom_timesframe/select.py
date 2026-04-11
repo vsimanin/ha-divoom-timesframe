@@ -75,21 +75,24 @@ class DivoomClockSelect(SelectEntity):
             self._attr_current_option = saved_option
         else:
             self._attr_current_option = self._attr_options[0] if self._attr_options else None
-
-    def select_option(self, option: str) -> None:
+    
+    #INFO: https://docin.divoom-gz.com/web/#/5/361
+    async def async_select_option(self, option: str) -> None:
         clock_id = self._clocks.get(option)
         if clock_id is None:
             return
         
-        #INFO: https://docin.divoom-gz.com/web/#/5/361
         payload = {
             "Command": "Channel/SetClockSelectId",
             "ClockId": int(clock_id)
         }
         try:
-            requests.post(self._url, json=payload, timeout=5)
+            response = await self._hass.async_add_executor_job(
+                lambda: requests.get(self._url, json=payload, timeout=5)
+            )
+            response.raise_for_status()
             self._attr_current_option = option
             self._hass.data[DOMAIN][f"{self._entry.entry_id}_clock"] = option
-            self.schedule_update_ha_state()
+            self.async_write_ha_state()
         except Exception as e:
             _LOGGER.error(f"Error setting clock to {option} (ID: {clock_id}): {e}")
