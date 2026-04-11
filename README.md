@@ -1,4 +1,4 @@
-
+# Divoom TimesFrame Integration for Home Assistant
 🇷🇺 DivoomTimesFrame — это пользовательская интеграция для Home Assistant, которая позволяет управлять панелями Divoom TimesFrame через локальный HTTP API. Проект находится на стадии активной разработки!
 
 🇺🇸 DivoomTimesFrame is a custom Home Assistant integration for controlling Divoom TimesFrame displays via the local HTTP API. This project is currently in early development!
