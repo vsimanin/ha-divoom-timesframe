@@ -10,8 +10,9 @@
 - ☀️ **Яркость**: Плавная регулировка яркости (0-100%)
 - 🕒 **Выбор оболочек**: Удобный список со всеми вашими оболочками, загруженными из облака Divoom
 - 🔄 **Перезагрузка**: Кнопка для удаленной перезагрузки устройства
+- 💬 **Поддержка Danmaku**: Возможность мгновенного вывода текстовых сообщений (до 100 символов, до 12 сообщений на экране)  
 - ⚡ **Локальное управление**: Команды отправляются напрямую на устройство по локальной сети через GET-запросы 
-- 👁️ **Опрос состояния экрана**: получение реального состояния экрана раз в 30 секунд
+- 👁️ **Опрос состояния экрана**: получение реального состояния экрана раз в 30 секунд  
 
 
 ## Установка   
@@ -30,12 +31,13 @@ This product is currently in the pre-release stage. Please feel free to join the
 
 ## Features
 
-- 📺 Screen Control: Turn the display on and off  
-- ☀️ Brightness: Smooth brightness adjustment (0-100%)  
-- 🕒 Watchface Selection: A convenient list of all your watchfaces synced from the Divoom cloud  
-- 🔄 Restart: A button for remote device reboot  
-- ⚡ Local Control: Commands are sent directly to the device over the local network via GET requests 
-- 👁️ **Screen state poll**: get the real state of the screen every 30 seconds. 
+- 📺 **Screen Control**: Turn the display on and off  
+- ☀️ **Brightness**: Smooth brightness adjustment (0-100%)  
+- 🕒 **Watchface Selection**: A convenient list of all your watchfaces synced from the Divoom cloud  
+- 🔄 **Restart**: A button for remote device reboot
+- 💬 **Danmaku Support**: Instant text message display (up to 100 characters, supports up to 12 messages on the screen)  
+- ⚡ **Local Control**: Commands are sent directly to the device over the local network via GET requests 
+- 👁️ **Screen state poll**: get the real state of the screen every 30 seconds
 
 ## Installation
 
