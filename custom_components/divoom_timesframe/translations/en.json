@@ -16,6 +16,22 @@
       "unknown": "Unexpected error"
     }
   },
+  "services": {
+    "send_danmaku": {
+      "name": "Send Danmaku",
+      "description": "Sends a short text message to the screen.",
+      "fields": {
+        "message": {
+          "name": "Message",
+          "description": "Text message (up to 100 characters)."
+        },
+        "color": {
+          "name": "Color",
+          "description": "Text color."
+        }
+      }
+    }
+  },
   "entity": {
     "button": {
       "divoom_reboot": {

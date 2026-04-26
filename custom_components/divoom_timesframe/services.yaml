@@ -1,0 +1,10 @@
+send_danmaku:
+  fields:
+    message:
+      required: true
+      selector:
+        text:
+    color:
+      default: [255, 255, 255]
+      selector:
+        color_rgb:

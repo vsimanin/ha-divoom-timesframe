@@ -16,6 +16,22 @@
       "unknown": "Непредвиденная ошибка"
     }
   },
+  "services": {
+    "send_danmaku": {
+      "name": "Отправить Danmaku",
+      "description": "Отправляет короткое текстовое сообщение на экран.",
+      "fields": {
+        "message": {
+          "name": "Сообщение",
+          "description": "Текст сообщения (до 100 символов)."
+        },
+        "color": {
+          "name": "Цвет",
+          "description": "Цвет текста."
+        }
+      }
+    }
+  },
   "entity": {
     "button": {
       "divoom_reboot": {
